@@ -1,0 +1,25 @@
+{
+  "name": "metrics",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "scripts": {
+    "start": "sls invoke local -f hello"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.40",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "@babel/register": "^7.0.0-beta.40",
+    "babel-loader": "^8.0.0-beta.0",
+    "install": "^0.10.4",
+    "lerna": "^2.9.0",
+    "npm": "^5.6.0",
+    "serverless-webpack": "^4.3.0",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.40",
+    "serverless-webpack": "^4.3.0"
+  }
+}

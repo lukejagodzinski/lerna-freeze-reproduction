@@ -1,0 +1,17 @@
+service: enrollment
+
+plugins:
+  - serverless-webpack
+
+custom:
+  webpackIncludeModules: true
+  # webpack: ../../webpack.config.js
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  profile: oculushealth
+
+functions:
+  hello:
+    handler: handler.hello
